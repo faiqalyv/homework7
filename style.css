@@ -1,0 +1,86 @@
+.alert{
+  background-color: rgb(8, 8, 66) !important;
+}
+.alert{
+    display: flex;
+    justify-content: space-between;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+.left .btn{
+    
+    height: 0px !important;
+    width: 50px;
+    margin-top: 45px;
+    background-color: green !important;
+
+}
+.right .btn{
+    background-color: green !important;
+    border-radius: 13px !important;
+
+}
+.left1 .btn{
+    background-color:  rgb(8, 8, 66) !important;
+    width: 120px;
+    height: 40px;
+}
+.right1 .btn{
+    width: 80px;
+    height: 8px;
+    background-color: green;
+   
+}
+.container1{
+    display: flex;
+    flex-direction: row;
+    background-color:  rgb(8, 8, 66) !important;
+   align-items: center;
+   justify-content: center;
+   column-gap: 30px;
+    height: 300px;
+    margin-top: 10px;
+}
+.container1>button{
+background-color: green;
+    width: 70px;
+    margin-top: -140px;
+}
+.container1 .child>button{
+    background-color: green;
+    width: 100px;
+    height: 40px;
+    position: relative;
+    left: -209px;
+    border-radius: 17px;
+}
+.container2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -46px;
+    column-gap: 20px;
+
+}
+.container2>button{
+    width: 160px;
+    height: 90px;
+    background-color: green !important;
+}
+
+    .grid-container {
+        display: inline-grid;
+        grid-template-columns: auto auto auto;
+        text-align: center;
+        padding: 10px;
+      position: relative;
+      left: 230px;
+}
+.col {
+    display: flex;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
